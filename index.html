@@ -7,46 +7,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="images/NinerSpikeLogo.png">
     <script src="Niner.js" defer></script>
+    
 </head>
 <body>
     <header>
-        <h1>-- Niner Spikeball Network --</h1>
-    </header>
+    <h1 class="header-title">-_- Niner Spikeball Network -_-</h1>
+    <nav class="header-nav">
+        <ul>
+            <li><a href="index.html">Central Hub</a></li>
+            <li><a href="templates/activity_hub.html">Activity Hub</a></li>
+            <li><a href="templates/gallery.html">Gallery</a></li>
+            <li><a href="templates/members.html">Members</a></li>
+            <li><a href="templates/Q&A.html">Q&A</a></li>
+        </ul>
+    </nav>
+</header>
+
 <main class="content">
     <h2>Welcome to Niner Spikeball Network!</h2>
     <section class="activities">
             <div class="activity-box">
                 <h2>Activity Hub</h2>
                 <p>The Activity Hub serves as the central hub for all spike ball events. Here, players can connect with others who share their passion for spike ball, organize games both on and off-campus, and have a great time! 
-                    <ul>
+                    <ul> Here you can find more information about:
                         <li>Casual Play</li>
                         <li>49er Club Information</li>
                         <li>Future Events</li>
                     </ul>
                 </p>
                 <img src="images/activity_image.png" alt="Activity Image">
-                <a href="activity_hub.html" class="button">Check it out!</a>
+                <a href="templates/activity_hub.html" class="button">Check it out!</a>
             </div>      
             
     </section>
     <section class="more-info">
     <div class="more-info-box">
         <h2>More Information</h2>
-        <p>Description of the information</p>
-        <!--
-        <img src="info_image.jpg" alt="Information Image">
-        -->
-        <a href="more_info.html" class="button">View More</a>
-        <a href="more_info.html" class="button">View More</a>
-        <a href="more_info.html" class="button">View More</a>
+        <p>Find more information about our galley, members, and our Q&A here!</p>
+        
+        <img src="images/info_image.png" alt="Information Image">
+        
+        <a href="templates/gallery.html" class="button">Gallery</a>
+        <a href="templates/members.html" class="button">Members</a>
+        <a href="templates/Q&A.html" class="button">Q&A</a>
         
     </div>
 </section>
 
 </main>
+<footer>
+    © Niner Spikeball Network | all rights reserved.
+</footer>
     
 </body>
 </html>
